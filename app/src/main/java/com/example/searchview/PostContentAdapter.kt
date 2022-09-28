@@ -86,7 +86,8 @@ class PostContentAdapter (var post : ArrayList<Post>, var con : Context)
 
                 return results
             }
-
+            
+            //결과 필터 데이터 저장
             @SuppressLint("NotifyDataSetChanged")
             override fun publishResults(constraint: CharSequence?, results: FilterResults) {
                 filterPost.clear()
