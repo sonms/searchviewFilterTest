@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    
+    <!--검색창이 따로 존재하는 태그-->
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="0dp"
