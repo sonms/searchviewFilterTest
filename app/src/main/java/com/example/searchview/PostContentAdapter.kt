@@ -81,6 +81,7 @@ class PostContentAdapter (var post : ArrayList<Post>, var con : Context)
                         }
                     }
                 }
+                //filterlist를 results.values에 저장
                 results.values = filterList
                 results.count = filterList.size
 
