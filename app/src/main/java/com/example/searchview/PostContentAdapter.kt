@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 class PostContentAdapter (var post : ArrayList<Post>, var con : Context)
     : RecyclerView.Adapter<PostContentAdapter.postViewHolder>(), Filterable  {
 
-        var filterPost = ArrayList<Post>()
+        var filterPost = ArrayList<Post>() //결과값
         var postFilter = PostFilter()
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): postViewHolder {
